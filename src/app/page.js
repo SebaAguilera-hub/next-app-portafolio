@@ -17,7 +17,7 @@ export default function Home() {
       
       <section className="flex flex-col md:flex-row justify-center items-center bg-gradient-to-b from-indigo-600 to-indigo-400 text-white py-20 min-h-screen">
         <div className="w-full md:w-1/2 text-center md:text-left px-4">
-          <h2 className="text-3xl md:text-5xl lg:text-6xl mb-8">Donde la Simpleza y la Elegancia se Encuentran</h2>
+          <h2 className="text-3xl md:text-5xl lg:text-6xl mb-8">¿Qué hago?</h2>
           <p className="mb-8 text-lg md:text-xl">Transformo tus ideas en páginas web elegantes y funcionales. Mi enfoque en diseño minimalista asegura una experiencia de usuario impecable y sofisticada, pero por sobre todo simple y sencilla.</p>
           <div className="flex max-md:justify-center">
             <Link href="/projects" passHref>
