@@ -7,13 +7,13 @@ const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-navColor">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <button
               type="button"
-              className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-hoverColor hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded={mobileMenuOpen}
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -38,10 +38,10 @@ const NavBar = () => {
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                <Link href="/curriculum" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Curriculum</Link>
-                <Link href="/projects" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Proyectos</Link>
-                <Link href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Sobre mí</Link>
-                <Link href="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contacto</Link>
+                <Link href="/curriculum" className="text-white hover:bg-hoverColor hover:text-white rounded-md px-3 py-2 text-sm font-medium">CURRICULUM</Link>
+                <Link href="/projects" className="text-white hover:bg-hoverColor hover:text-white rounded-md px-3 py-2 text-sm font-medium">PROYECTOS</Link>
+                <Link href="/about" className="text-white hover:bg-hoverColor hover:text-white rounded-md px-3 py-2 text-sm font-medium">SOBRE MÍ</Link>
+                
               </div>
             </div>
           </div>
@@ -50,10 +50,9 @@ const NavBar = () => {
 
       <div className={`sm:hidden ${mobileMenuOpen ? 'block' : 'hidden'}`} id="mobile-menu">
         <div className="space-y-1 px-2 pb-3 pt-2">
-        <Link href="/curriculum" className="text-gray-300 block hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Curriculum</Link>
-                <Link href="/projects" className="text-gray-300 block hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Proyectos</Link>
-                <Link href="/about" className="text-gray-300 block hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Sobre mí</Link>
-                <Link href="/contact" className="text-gray-300 block hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contacto</Link>
+        <Link href="/curriculum" className="text-white hover:bg-hoverColor block hover:text-white rounded-md px-3 py-2 text-sm font-medium">Curriculum</Link>
+                <Link href="/projects" className="text-white hover:bg-hoverColor block hover:text-white rounded-md px-3 py-2 text-sm font-medium">Proyectos</Link>
+                <Link href="/about" className="text-white hover:bg-hoverColor block hover:text-white rounded-md px-3 py-2 text-sm font-medium">Sobre mí</Link>
         </div>
       </div>
     </nav>
