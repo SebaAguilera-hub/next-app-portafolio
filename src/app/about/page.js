@@ -45,9 +45,9 @@ const page = () => {
           <Link href="/projects" passHref>
             <button className="bg-white text-indigo-600 px-4 py-2 font-bold rounded">Mis Proyectos</button>
           </Link>
-          <Link href="/contact" passHref>
+          {/* <Link href="/contact" passHref>
             <button className="bg-white text-indigo-600 px-4 py-2 font-bold rounded ml-4">Contacto</button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
