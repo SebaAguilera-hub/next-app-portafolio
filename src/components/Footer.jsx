@@ -13,11 +13,11 @@ const Footer = () => {
           </Link>
           <div className="flex items-center space-x-2">
             <FaEnvelope className="text-gray-400" size={24} />
-            <span>tu-correo@example.com</span>
+            <span>inforaguilera@gmail.com</span>
           </div>
           <div className="flex items-center space-x-2">
             <FaPhone className="text-gray-400" size={24} />
-            <span>+1234567890</span>
+            <span>+56 962581774</span>
           </div>
         </div>
         <div className="mt-4">
