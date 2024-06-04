@@ -33,7 +33,7 @@ const NavBar = () => {
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
             <div className="flex flex-shrink-0 items-center">
               <Link href="/">
-                <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+                <img className="h-9 w-auto rounded-md" src="../logo.png" alt="LOGO" />
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:block">
@@ -41,7 +41,6 @@ const NavBar = () => {
                 <Link href="/curriculum" className="text-white hover:bg-hoverColor hover:text-white rounded-md px-3 py-2 text-sm font-medium">CURRICULUM</Link>
                 <Link href="/projects" className="text-white hover:bg-hoverColor hover:text-white rounded-md px-3 py-2 text-sm font-medium">PROYECTOS</Link>
                 <Link href="/about" className="text-white hover:bg-hoverColor hover:text-white rounded-md px-3 py-2 text-sm font-medium">SOBRE MÍ</Link>
-                
               </div>
             </div>
           </div>
@@ -50,9 +49,9 @@ const NavBar = () => {
 
       <div className={`sm:hidden ${mobileMenuOpen ? 'block' : 'hidden'}`} id="mobile-menu">
         <div className="space-y-1 px-2 pb-3 pt-2">
-        <Link href="/curriculum" className="text-white hover:bg-hoverColor block hover:text-white rounded-md px-3 py-2 text-sm font-medium">Curriculum</Link>
-                <Link href="/projects" className="text-white hover:bg-hoverColor block hover:text-white rounded-md px-3 py-2 text-sm font-medium">Proyectos</Link>
-                <Link href="/about" className="text-white hover:bg-hoverColor block hover:text-white rounded-md px-3 py-2 text-sm font-medium">Sobre mí</Link>
+          <Link href="/curriculum" className="text-white hover:bg-hoverColor block hover:text-white rounded-md px-3 py-2 text-sm font-medium">Curriculum</Link>
+          <Link href="/projects" className="text-white hover:bg-hoverColor block hover:text-white rounded-md px-3 py-2 text-sm font-medium">Proyectos</Link>
+          <Link href="/about" className="text-white hover:bg-hoverColor block hover:text-white rounded-md px-3 py-2 text-sm font-medium">Sobre mí</Link>
         </div>
       </div>
     </nav>

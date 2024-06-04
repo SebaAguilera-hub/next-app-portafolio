@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-4">
-          <p>&copy; {new Date().getFullYear()} Tu Nombre. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Sebastián Aguilera. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

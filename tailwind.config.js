@@ -17,7 +17,7 @@ module.exports = {
         hoverColor: "#075385",
         buttonColor: "#0e91e9",
         cardColor: "#bae2fd",
-        customBg: "#7799b9"
+        customBg: "#7799b9"  
       },
       screens: {
         'custom-lg': '950px'
